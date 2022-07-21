@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <title>Zaratec</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #dec200";>
+        <div class="container-fluid">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                  <img src="./img/logo.png" alt="" height="50">
+                </a>
+              </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="./pages/servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./pages/ubicacion.html">Ubicación</a>
+              </li>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="./pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main>
+
+        <!-- Título -->
+        <section class="titulo">
+          <h1>Servicio Técnico de PC y Notebook</h1>
+        </section>
+    
+        <!-- Imagen con efecto Parallax -->
+        <div class="parallax"></div>
+        
+        <!-- Información del servicio -->
+        <p class="descripcion">Contamos con personal altamente cualificado con más de 10 años de experiencia en
+          instalación, mantenimiento y reparación de PCs y Notebooks</p>
+        
+        <!-- Servicios -->
+          <div class="container">
+          <article class="article">
+            <h2>Soluciones de Software:</h2>
+            <p>Instalación y configuración de sistemas operativos.</p>
+            <p>Instalación de programas para diseño, dibujo, ofimática, internet, etc.</p>
+            <p>Limpieza de virus, malware y programas peligrosos.</p>
+          </article>
+          <img class="solutions" src="/img/software.png" alt="">
+          <article class="article">
+            <h2>Soluciones de Hardware:</h2>
+            <p>Armado a medida de PC.</p>
+            <p>Actualización y reemplazo de componentes.</p>
+            <p>Colocación o cambio de discos duros/SSD para PCs, Notebooks y AIOs.</p>
+            <p>Limpieza y mantenimiento interno.</p>
+          </article>
+          <img class="solutions" src="/img/hardware.png" alt="">
+        </div>
+        </section>
+      </main>
+    
+      <!-- Pie de página -->
+      <footer class="pie">
+        <p><b>Enlaces rápidos:</b></p>
+        <div class="foot"><a href="index.html">Inicio</a></div>
+        <div class="foot"><a href="./pages/nosotros.html">Nosotros</a></div>
+        <div class="foot"><a href="./pages/ubicacion.html">Ubicación</a></div>
+        <div class="foot"><a href="./pages/servicios.html">Preguntas</a></div>
+        <div class="foot"><a href="./pages/contacto.html">Contacto</a></div>
+      </footer>
+</body>
+</html>
